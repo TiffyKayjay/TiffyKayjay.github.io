@@ -51,6 +51,7 @@ body {
   transition: border .15s;
   border-color: var(--color-title);
   user-select: none;
+  text-decoration: none;
 }
 
 .banner-link:hover {
