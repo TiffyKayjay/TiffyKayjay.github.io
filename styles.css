@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+:root {
+  --color-background: #E7EAEB;
+  --color-line: #DE5745;
+  --color-title: #EBA2D4;
+  --gradient-banner-link: linear-gradient(180deg, #5F4F36 0%, #3E3733 49%, #312B21 80%, #191612 100%);
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+#title-container {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#title {
+  font-size: 3rem;
+  font-family: Pacifico, sans-serif;
+  color: var(--color-title);
+}
+
+.title-line {
+  flex: 1;
+  border-top: 3px solid var(--color-line);
+  margin: 0 20px;
+}
+
+.banner-link {
+  width: 256px;
+  min-height: 200px;
+  background-image: var(--gradient-banner-link);
+  border-radius: 10px;
+  font-family: Amita;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 2rem;
+  border: 5px solid transparent;
+  background-origin: border-box;
+  transition: border .15s;
+  border-color: var(--color-title);
+}
+
+.banner-link:hover {
+  border: 5px solid var(--color-line);
+}
+
+#link-container {
+  display: flex;
+  gap: 20px;
+  padding: 60px 20px 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
