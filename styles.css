@@ -66,3 +66,8 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.title-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--color-line);
+}
