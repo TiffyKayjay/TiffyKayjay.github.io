@@ -50,6 +50,7 @@ body {
   background-origin: border-box;
   transition: border .15s;
   border-color: var(--color-title);
+  user-select: none;
 }
 
 .banner-link:hover {
