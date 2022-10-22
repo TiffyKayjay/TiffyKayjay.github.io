@@ -116,3 +116,13 @@ body {
 .project-description {
   padding-top: 10px;
 }
+
+@media only screen and (max-width: 900px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project:not(:first-child) {
+    margin-top: 60px;
+  }
+}
