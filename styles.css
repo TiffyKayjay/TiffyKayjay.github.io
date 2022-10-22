@@ -85,7 +85,11 @@ body {
 }
 
 #content-container {
-  padding: 10px 20px 20px;
+  padding: 20px 20px 20px;
+}
+
+.project:not(:first-child) {
+  margin-top: 20px;
 }
 
 .yt-video {
