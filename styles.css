@@ -84,7 +84,7 @@ body {
   font-size: 2rem;
 }
 
-.content-container {
+#content-container {
   padding: 120px 20px 20px;
 }
 
@@ -101,6 +101,7 @@ body {
 
 .project-header {
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .project-title {
