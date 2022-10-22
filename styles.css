@@ -101,6 +101,7 @@ body {
   display: flex;
   gap: 20px;
   font-family: Roboto Slab;
+  align-items: center;
 }
 
 .project-header {
