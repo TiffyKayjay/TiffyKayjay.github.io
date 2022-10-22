@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 :root {
   --color-background: #E7EAEB;
@@ -70,4 +71,42 @@ body {
 .title-underline {
   text-decoration: underline;
   text-decoration-color: var(--color-line);
+}
+
+#title-container, #subtitle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#subtitle-container {
+  font-family: Amita;
+  font-size: 2rem;
+}
+
+.content-container {
+  padding: 120px 20px 20px;
+}
+
+.yt-video {
+  width: 430px;
+  height: 241.88px;
+}
+
+.project {
+  display: flex;
+  gap: 20px;
+  font-family: Roboto Slab;
+}
+
+.project-header {
+  font-weight: bold;
+}
+
+.project-title {
+  font-size: 1.2rem;
+}
+
+.project-description {
+  padding-top: 10px;
 }
