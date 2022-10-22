@@ -18,11 +18,22 @@ body {
   margin: auto;
 }
 
+#title-container, #subtitle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #title-container {
   padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#subtitle-container {
+  font-family: Amita;
+  font-size: 2rem;
 }
 
 #title {
@@ -35,6 +46,11 @@ body {
   flex: 1;
   border-top: 3px solid var(--color-line);
   margin: 0 20px;
+}
+
+.title-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--color-line);
 }
 
 .banner-link {
@@ -68,28 +84,14 @@ body {
   flex-wrap: wrap;
 }
 
-.title-underline {
-  text-decoration: underline;
-  text-decoration-color: var(--color-line);
-}
-
-#title-container, #subtitle-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#subtitle-container {
-  font-family: Amita;
-  font-size: 2rem;
-}
-
 #content-container {
   padding: 20px;
 }
 
-.project:not(:first-child) {
-  margin-top: 10px;
+#showreel-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .yt-video {
@@ -97,11 +99,20 @@ body {
   height: 241.88px;
 }
 
+.yt-video-showreel {
+  width: 640px;
+  height: 360px;
+}
+
 .project {
   display: flex;
   gap: 20px;
   font-family: Roboto Slab;
   align-items: center;
+}
+
+.project:not(:first-child) {
+  margin-top: 10px;
 }
 
 .project-header {
@@ -124,15 +135,4 @@ body {
   .project:not(:first-child) {
     margin-top: 60px;
   }
-}
-
-#showreel-container {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.yt-video-showreel {
-  width: 620px;
-  height: 348.75px;
 }
